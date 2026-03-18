@@ -2,7 +2,7 @@ from textblob import TextBlob
 import pandas as pd
 
 # Load dataset
-data = pd.read_csv("sentiment_data.csv")
+data = pd.read_csv("scraped_data.csv")
 
 # Function for sentiment
 def get_sentiment(text):
